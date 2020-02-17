@@ -1,0 +1,51 @@
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+}
+h3 {
+  font-weight: 500;
+}
+p {
+  font-weight: 400;
+}
+p.thin {
+  font-weight: 200;
+}
+p.ultralight {
+  font-weight: 100;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.inline-block-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+.inline-block-top {
+  display: inline-block;
+  vertical-align: top;
+}
+.inline-block-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.hidden {
+  display: none !important;
+}
+.make-it-slow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+/* Transition to a bigger shadow on hover */
+.make-it-slow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
